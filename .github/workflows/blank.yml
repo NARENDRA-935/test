@@ -7,5 +7,4 @@ jobs:
   check-bats-version:
     runs-on: self-hosted
     steps:
-      - run: bash file.sh
-        shell: bash
+      - run: ls -l
