@@ -7,6 +7,4 @@ jobs:
   check-bats-version:
     runs: self-hosted
     steps:
-      - name: git actions learning
-        shell: bash
       - run: bash file.sh
