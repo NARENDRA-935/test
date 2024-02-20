@@ -9,5 +9,6 @@ jobs:
     steps:
       - name: clone
         uses: actions/checkout@v4
+      - name: my output
       - run: bash file.sh
         shell: bash
