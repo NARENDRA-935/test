@@ -8,5 +8,3 @@ jobs:
     runs-on: self-hosted
     steps:
       - run: bash file.sh
-        name: lam learning git hub action
-        shell: bash
