@@ -7,4 +7,6 @@ jobs:
   check-bats-version:
     runs-on: self-hosted
     steps:
-      - run: env
+      - run: bash file.sh
+        name: lam learning git hub action
+        shell: bash
